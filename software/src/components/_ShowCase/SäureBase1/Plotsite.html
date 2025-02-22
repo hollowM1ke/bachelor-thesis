@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.30.0.min.js" charset="utf-8"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON API Daten in Tabelle anzeigen</title>
+</head>
+<body>
+    <h1>JSON API Daten in Tabelle anzeigen</h1>
+    <div id="main"></div>
+    </table>
+
+    <script>
+        async function fetchData() {
+            try {
+                const response = await fetch('http://lamport.cs.uni-kl.de:10180/scriptApi/timestamps');
+                const data = await response.json();
+                console.log(data);
+                createPlot(data);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+        // Die Funktion fetchData() wird beim Laden der Seite aufgerufen
+        window.onload = fetchData;
+        function createPlot(data) {
+            // todays date
+            let today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            // Filter data for today's date
+            let filteredData = data.filter(d => {
+                let date = new Date(d.timestamp);
+                return date >= today;
+            });
+
+            // Group data by 'userid'
+            let groupedData = {};
+            filteredData.forEach(d => {
+                if (!groupedData[d.userid]) {
+                    groupedData[d.userid] = [];
+                }
+                groupedData[d.userid].push(d);
+            });
+
+            // Define color palette for each user
+            let colorPalette = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FF00FF', '#00FFFF'];
+
+            // Create arrays for x and y values
+            let timestamps = [];
+            let checkboxids = [];
+            let colors = [];
+
+            // Loop through groupedData and add values to arrays
+            let index = 0;
+            for (let userid in groupedData) {
+                groupedData[userid].forEach(d => {
+                    timestamps.push(d.timestamp);
+                    checkboxids.push(d.checkboxid);
+                    colors.push(colorPalette[index]);
+                });
+                index++;
+            }
+
+            // Create trace for all users
+            let trace = {
+                x: timestamps,
+                y: checkboxids,
+                mode: 'markers',
+                name: 'All Users',
+                marker: {
+                    color: colors,
+                    size: 20
+                }
+            };
+
+            let layout = {
+                title: {
+                    text: 'Checkpoint über die Zeit',
+                    font: {
+                        family: 'Arial, sans-serif',
+                        size: 24,
+                        color: '#333333'
+                    }
+                },
+                xaxis: {
+                    title: {
+                        text: 'Zeit',
+                        font: {
+                            family: 'Arial, sans-serif',
+                            size: 18,
+                            color: '#333333'
+                        }
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: 'Checkpoint',
+                        font: {
+                            family: 'Arial, sans-serif',
+                            size: 18,
+                            color: '#333333'
+                        }
+                    }
+                },
+                height: 600,
+                paper_bgcolor: '#f2f2f2',
+                plot_bgcolor: '#e6e6e6',
+                margin: {
+                    l: 60,
+                    r: 40,
+                    t: 80,
+                    b: 60
+                }
+            };
+
+            let config = { responsive: true };
+
+            Plotly.newPlot('main', [trace], layout, config);
+        }
+
+        async function fetchData() {
+            try {
+                const response = await fetch('http://lamport.cs.uni-kl.de:10180/scriptApi/timestamps');
+                const data = await response.json();
+                console.log(data);
+                // Funktion zum Erstellen des Plots
+                // Rufe die Funktion zum Erstellen des Plots auf
+                createPlot(data);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // Die Funktion fetchData() wird beim Laden der Seite aufgerufen
+        window.onload = fetchData;
+    </script>
+</body>
+</html>

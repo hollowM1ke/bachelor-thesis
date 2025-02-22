@@ -1,0 +1,110 @@
+{
+  "image": [],
+  "spreadsheet": [],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 780,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.4. Pyrolyse unbekannter Kunststoffe</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 15 Min.</h3>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 780,
+                  "height": 195
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Reagenzgläser</label>\n                            <label className='mx-5'>Reagenzglasständer</label>\n                            <label className='mx-5'>Holzklammer</label>\n                            <label className='mx-5'>Kartuschenbrenner</label>\n                            <label className='mx-5'>pH-Indikatorpapier</label>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 575
+              },
+              "size": {
+                  "width": 780,
+                  "height": 135
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='is-align-items-center'>\n                                <label>4 verschiedene Kunststoffgranulate</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>VE-Wasser</label>\n                            </div>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 720
+              },
+              "size": {
+                  "width": 780,
+                  "height": 695
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n\n                            <div>\n                                <label>Unter dem Abzug arbeiten!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Gib zwei bis drei Stückchen des zu untersuchenden Kunststoffgranulats in ein Reagenzglas.<br/>\n                            Hänge einen am Rand umgeknickten und mit VE-Wasser angefeuchteten Streifen pH-Papier in das Reagenzglas.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Halte das Reagenzglas mit der Holzklammer in die Flamme des Kartuschenbrenners. <span className='has-text-danger'>Arbeite hinter der Abzugsscheibe und achte darauf, dass die Öffnung des Reagenzglases von anderen Personen weg nach hinten in den Abzug weist!</span>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>3. </span>\n                            Beobachte, ob sich die Farbe des pH-Papiers ändert.<br/>\n                            Notiere deine Beobachtungen in der Tabelle.<br/>\n                            <span className='has-text-danger'>Beachte, dass Geruchsproben verboten sind!</span>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Entsorge die <span className='has-text-danger'>abgekühlten (!)</span> Reagenzgläser mit den Pyrolyseprodukten in den Tischabfallbehälter im Abzug.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>\n\n\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1430
+              },
+              "size": {
+                  "width": 780,
+                  "height": 20
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<p className=\"title is-size-6 has-text-centered\">Die Ergebnisse kannst du in der Tabelle in \"Mein Board\" eintragen.</p>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1460
+              },
+              "size": {
+                  "width": 780,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className=\"box\">\n                        <p className='title has-text-info is-5'>Reaktion der Pyrolysegase mit pH-Papier</p>\n                        <table className='table is-fullwidth'>\n                            <thead>\n                                <tr>\n                                    <th>pH 0,5 bis pH 2  </th>\n                                    <th>pH 3 bis pH 7  </th>\n                                    <th>pH 8 bis pH 9,5  </th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr>\n                                    <td>PVC, PTFE</td>\n                                    <td>PE, PP, PB, PS, PMMA, PC, PVAL, PET</td>\n                                    <td>PA, PAN</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n"
+          }
+      }
+  ],
+  "todolist": []
+}

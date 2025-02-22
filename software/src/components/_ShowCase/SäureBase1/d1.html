@@ -1,0 +1,304 @@
+<div style="padding:10px;">
+<table width=100% style="font-size:xx-large">
+<tr valign="top">
+<th id="experimentScriptId">D.1.</th>
+<th style="text-align:left">Titration von Phosphorsäure mit Natronlauge und pH-Meter</th>
+</tr>
+<tr>
+<td />
+<td>
+<p style="color:gray;margin-top:0;padding-top:0;">(Dauer: 1 Stunde)</p>
+</td>
+</tr>
+</table>
+<hr />
+<table width=100% style="font-size:x-large">
+<tr valign="top">
+<th width=20%>Materialien:</th>
+<td>
+2 Bechergläser 250 ml</br>
+Vollpipette 25 ml</br>
+Pipettierhilfe</br>
+Trichter</br>
+Bürette 50 ml</br>
+2 Bürettenklammern
+</td>
+<td>
+pH-Meter</br>
+Magnetheizplatte</br>
+Rührfisch</br>
+Stativ</br>
+Muffe und Klemme
+</td>
+</tr>
+</table>
+<hr />
+<table width=100% style="font-size:x-large">
+<tr>
+<th width=20%>Chemikalien:</th>
+<td>
+Phosphorsäure unbekannter Konzentration <img style='vertical-align:middle;margin-left:20px' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv"> <b>Achtung</b>
+</td>
+</tr>
+<tr>
+<td />
+<td>
+Natronlauge 0,1 mol/l <img style='vertical-align:middle;margin-left:20px' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv"> <b>Achtung</b></br>
+VE-Wasser</br><hr style="visibility:hidden"/>
+</td>
+</tr>
+</table>
+<hr />
+<style>
+.blur {
+filter: blur(0.5rem);
+pointer-events: none;
+}
+.checkSafetyIconHide {
+display: none;
+}
+</style>
+<script>
+// Experiment ID, used as cache name
+user = new URLSearchParams(window.location.search).get('id');
+sid = document.getElementById('experimentScriptId').textContent + user + window.location.pathname;
+
+// Load cache states
+checkSafety = document.getElementById('scriptSafetyCheckbox');
+checkboxes = document.querySelectorAll('input[type=checkbox]');
+if (window.sessionStorage.getItem(sid)) {
+storage = JSON.parse(window.sessionStorage.getItem(sid));
+for (var i = 0; i < checkboxes.length; i++) {
+if ((storage[checkboxes[i].id]) && (checkboxes[i].id == 'scriptSafetyCheckbox')) {
+document.getElementById('blurPart').classList.remove('blur');
+checkSafety.checked = true;
+} else {
+checkboxes[i].checked = storage[checkboxes[i].id];
+}
+}
+}
+
+// Handling blur and safety checkmark/cross
+checkSafety.onclick = function(e) {
+document.getElementById('blurPart').classList.toggle('blur');
+storeInCache(e.target);
+}
+
+// Handling execution step checkbox caching
+for (var i = 0; i < checkboxes.length; i++) {
+if (!(checkboxes[i].id == 'scriptSafetyCheckbox')) {
+checkboxes[i].onclick = function(e) {
+storeInCache(e.target);
+}
+}
+}
+
+// Caching
+function storeInCache(node) {
+var nodeInfo = {};
+if (window.sessionStorage.getItem(sid)) {
+nodeInfo = JSON.parse(window.sessionStorage.getItem(sid));
+} 
+nodeInfo[node.id] = node.checked;
+window.sessionStorage.setItem(sid, JSON.stringify(nodeInfo));
+}
+
+</script>
+<table width=100% style="font-size:x-large;border-spacing:0 6px">
+<tr>
+<th width=20%>Sicherheit:</th>
+<td>Schutzbrille</td>
+</tr>
+<tr>
+<th />
+<td>Unter dem Abzug arbeiten</td>
+</tr>
+</table>
+<div id="note" style="display:flex;justify-content:space-between;font-size:x-large;align-items:center;margin:0 0 0 20%">
+<p>Ich habe die Sicherheitshinweise gelesen und verstanden!</p>
+<div id="checkSafetyIcon">
+<input id="scriptSafetyCheckbox" style="width:35px;height:35px;margin-right:20px" type="checkbox" />
+</div>
+</div>
+<hr />
+<div id="table" style="display:flex;font-size:x-large;">
+<b id="title" style="flex-basis:20%;text-align:center">Durchführung:</b>
+<ol id="blurPart" class="blur" style="flex-basis:80%;margin:0;padding-left:30px;">
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Befestige die Bürette mit 2 Bürettenklammern am Stativ und</br>
+achte darauf, dass der Hahn der Bürette geschlossen ist!</br>
+Stelle das Becherglas unter die Bürette.</br>
+Fülle über den Trichter die Natronlauge bis über die Nullmarke in</br>
+die Bürette. Lass anschließend Natronlauge in das Becherglas</br>
+ab, so dass noch genau 50 ml in der Bürette enthalten sind.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox1" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Gib einen Rührfisch in das saubere Becherglas, pipettiere genau</br>
+25 ml der Säure hinzu und fülle mit VE-Wasser auf 150 ml auf.<br>
+Stelle das Becherglas auf den Magnetrührer.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox2" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Kopiere die Tabelle rechts neben diesem Skript in das private<br>
+Notizbuch<img src="https://softech-git.cs.uni-kl.de/basf-labbook/documentation/-/raw/main/images/notizen.png" style="height: 1.5rem;margin-right:-10px;"/>. Mit einem Halten auf der Tabelle kann unter<br>
+der Option "Label" ein Name für die Tabelle vergeben werden.<br>
+Platzieren dann ein Diagramm-Element aus der ToolBox in dem<br>
+Notizbuch und wähle die folgdenen Einstellungen:
+<ul>
+<li style="margin-bottom:5px">
+Tabelle: Der eben vergebene Name
+</li>
+<li style="margin-bottom:5px">
+Diagramm: Liniendiagramm
+</li>
+<li style="list-style:none;margin-bottom:5px">Und auf der nächsten Seite:</li>
+<li>
+Skalierung der y-Achse: von 0 (minY) bis 15 (maxY)
+</li>
+</ul>
+Das Diagramm wird automatisch aktualisiert, wenn die Tabelle<br>
+verändert wird.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox3" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Befestige die Elektrode des pH-Meters mit Klemme und</br>
+Muffe am Stativ, so dass sie in die Salzsäure im Becherglas</br>
+taucht.</br>
+Schalte am Magnetrührer die Rührfunktion ein und achte</br>
+darauf, dass der Rührfisch beim Rühren nicht an die Elektrode</br>
+schlägt. Vergewissere dich, dass die Heizplatte ausgeschaltet</br>
+ist. Lies den pH-Wert ab und notiere ihn in der Tabelle im</br>
+Labbook.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox4" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Tropfe 1 ml der Natronlauge aus der Bürette zur vorgelegten<br>
+Säure. Warte bei laufendem Rührer kurz und lies danach<br>
+erneut den pH-Wert ab und trage die neuen Messwerte in die<br>
+Tabelle im Labbook ein.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox5" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Titriere in 1-ml-Schritten weiter. Notiere jeweils die pH-Werte<br>
+und Volumina an zugegebener Natronlauge in der Tabelle im<br>
+Labbook und beobachte die Änderungen im Diagramm.<br>
+Beende die Titration erst, wenn der pH-Wert deutlich im<br>
+basischen Bereich liegt.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox6" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Diskutiere das Ergebnis mit deinem Betreuer.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox7" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Wenn eine weitere Titration nötig ist, reinige das<br>
+Becherglas mit VE-Wasser und verwende es wieder. Bei der<br>
+ersten Titration hast du eine sprunghafte Änderung des pH-<br>
+Wertes festgestellt. Gib jetzt kurz vor diesem Punkt die<br>
+Natronlauge tropfenweise (!) dazu, damit du die Werte am<br>
+Umschlagspunkt genauer bestimmen kannst.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox8" /></span>
+</div>
+</li>
+</ol>
+</div>
+<hr />
+<table width=100% style="font-size:x-large;border-collapse:separate;border-spacing:0 20px;">
+<tr valign="top">
+<th width=20%>Entsorgung:</th>
+<td>
+Überprüfe, ob du die Bürette mit der Natronlauge noch für</br>
+weitere Titrationen benötigst. Falls ja, kannst du sie</br>
+weiterverwenden. Falls nein, spüle die Bürette am Stativ</br>
+zweimal mit VE-Wasser und lege sie an den vorgesehenen</br>
+Platz.
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox1" /></p>
+</td>
+</tr>
+<tr>
+<th />
+<td>
+Reinige das pH-Meter mit VE-Wasser. Spüle die Pipetten</br>
+zweimal mit VE-Wasser aus der Spritzflasche und stelle sie</br>
+vorsichtig in den bereitgestellten Pipettenständer.
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox2" /></p>
+</td>
+</tr>
+<tr>
+<th />
+<td>
+Alle wässrigen anorganischen Lösungen können über die</br>
+Spüle entsorgt werden, da eine Kläranlage nachgeschaltet</br>
+ist.
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox3" /></p>
+</td>
+</tr>
+</table>
+<hr />
+<table style="font-size:x-large;border-spacing:0;margin:0 auto">
+<tr>
+<th colspan=2 style="font-size:xx-large">Mögliche Gefahren</th>
+</tr>
+<tr valign="top">
+<th style="border:2px solid black;border-right:0;border-bottom:0;padding:10px;text-align:left">
+Phosphorsäure</br>in den vorgegebenen</br>Konzentrationen</br>
+<img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv" /> </br>
+Achtung
+</th>
+<td style="border:2px solid black;border-bottom:0;padding:10px;font-size:large">
+<b>Gefahrenhinweis</b></br>
+H290 Kann gegenüber Metallen korrosiv sein. 
+</td>
+</tr>
+<tr valign="top">
+<th style="border:2px solid black;border-right:0;padding:10px;text-align:left">
+Natronlauge 0,1 mol/l</br>
+<img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv" /> </br>
+Achtung
+</th>
+<td style="border:2px solid black;padding:10px;font-size:large">
+<b>Gefahrenhinweis</b></br>
+H290 Kann gegenüber Metallen korrosiv sein. 
+</td>
+</tr>
+</table>
+
+</div>

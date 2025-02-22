@@ -1,0 +1,76 @@
+{
+  "image": [],
+  "spreadsheet": [],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 750,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.5. Schmelzspinnen – Fäden aus Polyamid</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 10 Min.</h3>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 750,
+                  "height": 195
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Reagenzgläser</label>\n                            <label className='mx-5'>Reagenzglasständer</label>\n                            <label className='mx-5'>Holzklammer</label>\n                            <label className='mx-5'>Kartuschenbrenner</label>\n                            <label className='mx-5'>Holzstab</label>\n                        </div>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 575
+              },
+              "size": {
+                  "width": 750,
+                  "height": 115
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='is-align-items-center'>\n                                <label>Polyamid-Granulat</label>\n                            </div>\n                        </div>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 700
+              },
+              "size": {
+                  "width": 750,
+                  "height": 655
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit: </span>\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n\n                            <div>\n                                <label>Unter dem Abzug arbeiten!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'> \n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Gib eine Spatelspitze Polyamid-Granulat in ein Reagenzglas. Halte das Reagenzglas mit der Holzklammer und schmelze das Granulat vorsichtig über der Brennerflamme.\n                            <span className='has-text-danger'> Beachte, dass du hinter der Abzugsscheibe arbeitest und die Öffnung des Reagenzglases von anderen Personen weg nach hinten in den Abzug weist! </span>\n                            <strong>Achte darauf, dass die Schmelze nicht braun wird.</strong>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Nimm die Schmelze aus der Brennerflamme und schalte den Brenner aus.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>3. </span>\n                            Mit einem in die Schmelze getauchten Holzstab kannst du nun zahlreiche seidenglänzende Fäden ziehen. Die Fäden kannst du noch verstrecken.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Entsorge das <span className='has-text-danger'>abgekühlte (!)</span> Reagenzglas in den Tischabfallbehälter im Abzug.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>"
+          }
+      }
+  ],
+  "todolist": []
+}

@@ -1,0 +1,281 @@
+//colors
+$primary : #00793A;
+$link : #004A96;
+$info : #21A0D2;
+$success: #65AC1E;
+$warning: #F39500;
+$danger : #C50022;
+
+//box
+$box-color : black;
+$box-background-color: white;
+
+//title
+$title-color: black;
+
+//menu
+$menu-label-font-size : 1em;
+$menu-label-color : black;
+$menu-item-color :  #004A96;
+$menu-item-active-color : #004A96;
+$menu-item-active-background-color : hsla(206, 70%, 96%, 1);
+$menu-label-color:  #00793A;
+
+//breadcrumb
+$breadcrumb-item-separator-color : rgba(245, 93, 62, 1);
+
+//tabs
+$tabs-link-color : white;
+$tabs-link-active-color :black;
+
+html {
+    overflow: hidden !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.workcomponent {
+    font-size: 12px;
+    font-family: tahoma;
+    border: 1px solid #ccc;
+    color: #555;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.workcomponent:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+
+}
+
+.xBox {
+    float:initial;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+
+.xBox:not(.dontHover):hover {
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff
+}
+
+.board {
+    display: flex;
+}
+
+.board-preview {
+    display: flex;
+}
+
+.board-preview:not(.dontHover):hover {
+    filter: alpha(opacity=0.3); /* internet explorer */
+    -khtml-opacity: 0.3;      /* khtml, old safari */
+      -moz-opacity: 0.3;      /* mozilla, netscape */
+           opacity: 0.3;      /* fx, safari, opera */
+}
+//title
+
+.react-resizable {
+    position: relative;
+}
+.react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+}
+.react-resizable-handle-sw {
+    bottom: 0;
+    left: 0;
+    cursor: sw-resize;
+    transform: rotate(90deg);
+}
+.react-resizable-handle-se {
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+}
+.react-resizable-handle-nw {
+    top: 0;
+    left: 0;
+    cursor: nw-resize;
+    transform: rotate(180deg);
+}
+.react-resizable-handle-ne {
+    top: 0;
+    right: 0;
+    cursor: ne-resize;
+    transform: rotate(270deg);
+}
+.react-resizable-handle-w,
+.react-resizable-handle-e {
+    top: 50%;
+    margin-top: -10px;
+    cursor: ew-resize;
+}
+.react-resizable-handle-w {
+    left: 0;
+    transform: rotate(135deg);
+}
+.react-resizable-handle-e {
+    right: 0;
+    transform: rotate(315deg);
+}
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+    left: 50%;
+    margin-left: -10px;
+    cursor: ns-resize;
+}
+.react-resizable-handle-n {
+    top: 0;
+    transform: rotate(225deg);
+}
+.react-resizable-handle-s {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+::backdrop {
+    background-color: white;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 99999999 !important;
+}
+
+.switch-1:checked ~ .hidden-1
+{
+   display: auto;
+}
+
+.switch-1:not(:checked) ~ .hidden-1
+{
+   display: none;
+}
+
+.custom-multiselect {
+    width: 200px;
+}
+
+.custom-select {
+    position: relative;
+}
+
+.custom-select-label {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: rgb(232, 232, 232);
+}
+
+.custom-overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.custom-checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+    background-color: white;
+    padding: 5px;
+    min-height: 40px;
+}
+
+/* The container */
+.custom-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    min-height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.custom-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox-container:hover input~.custom-checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox-container input:checked~.custom-checkmark {
+    background-color: #004A96;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox-container input:checked~.custom-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox-container .custom-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.gridLine, .axis-grid {
+    color: lightgray;
+}
+
+.gridLine .domain {
+    color: black;
+}

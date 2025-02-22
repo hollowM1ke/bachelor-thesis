@@ -1,0 +1,229 @@
+.Spreadsheet {
+  position: relative;
+  overflow: visible;
+  background: white;
+  color: black;
+  display: inline-block;
+  /* margin-top: 44px; */
+}
+
+.Spreadsheet .ActiveCell {
+  padding: 4px;
+  position: absolute;
+  border: 2px solid #4285f4;
+  box-sizing: border-box;
+}
+
+.Spreadsheet .ActiveCell.edit {
+  background: white;
+}
+
+.SpreadsheetTable {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.Spreadsheet td,
+.Spreadsheet .ActiveCell {
+  cursor: cell;
+}
+
+.Spreadsheet td,
+.Spreadsheet td input {
+  outline: none;
+}
+
+.Spreadsheet td,
+.Spreadsheet th {
+  /* min-width: 6em;
+  max-width: 12em; */
+  min-height: 1.9em;
+  height: 1.9em;
+  max-height: 1.9em;
+  padding: 4px;
+  border: 2px solid rgb(231, 231, 231);
+  /*overflow: hidden;
+  word-break: break-word;
+  white-space: nowrap;*/
+  text-align: left;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* .Spreadsheet .fixedColumnWidth {
+  min-width: 6em;
+  max-width: 12em;
+} */
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background-color: transparent;
+}
+
+.overlay:hover {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background-color: transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  cursor: col-resize;
+  margin-left: -10px;
+}
+
+.overlay:active {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background-color: transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  cursor: col-resize;
+  margin-left: -50px;
+}
+
+.css-dreieck {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid black;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -2px;
+}
+
+.Spreadsheet .fullColumnWidth {
+  min-width: 6em;
+}
+
+.Spreadsheet-container {
+  max-width: min-content;
+  max-height: min-content;
+}
+
+.Spreadsheet .firstrow th {
+  background: #afafaf;
+}
+
+.Spreadsheet th {
+  background: #f5f5f5;
+  color: #999;
+  text-align: center;
+  font: inherit;
+}
+
+.Spreadsheet .ActiveCell.edit {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Spreadsheet td.readonly {
+  color: #999;
+}
+
+.Spreadsheet .DataEditor,
+.Spreadsheet .DataEditor input {
+  width: 98%;
+  height: 98%;
+}
+
+.Spreadsheet .DataEditor input {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.Spreadsheet .selected {
+  background: rgba(160, 195, 255, 0.2);
+  border: 2px #4285f4 solid;
+}
+
+.Spreadsheet .selected.dragging {
+  border: none;
+}
+
+.Spreadsheet .copied {
+  border: 2px #4285f4 dashed;
+}
+
+.Spreadsheet .boolean {
+  text-align: center;
+}
+
+.Toolbar .AppBar {
+  /* border-top-left-radius: 4px;
+  border-top-right-radius: 4px; */
+}
+
+.Toolbar .MuiToolbar-root {
+  height: 45px;
+  min-height: 45px;
+  padding-left: 5px;
+}
+
+.ColorPickerModal {
+  width: fit-content;
+}
+
+.MuiPopover-root.SpreadsheetPopover .MuiPopover-paper {
+  padding: 10px;
+  max-width: 300px;
+}
+
+.AlignTextVerticalCenter {
+  align-self: center;
+}
+
+.timestamp-cell {
+    /* color: black; */
+}
+
+.highlighted {
+    animation: fadeoutBg 5s; /***Transition delay 5s fadeout is class***/
+    -moz-animation: fadeoutBg 5s; /* Firefox */
+    -webkit-animation: fadeoutBg 5s; /* Safari and Chrome */
+    -o-animation: fadeoutBg 5s; /* Opera */
+}
+
+@keyframes fadeoutBg {
+    from { color: red; } /** from color **/
+    to { color: black; } /** to color **/
+}
+
+@-moz-keyframes fadeoutBg { /* Firefox */
+    from { color: red; }
+    to { color: black; }
+}
+
+@-webkit-keyframes fadeoutBg { /* Safari and Chrome */
+    from { color: red; }
+    to { color: black; }
+}
+
+@-o-keyframes fadeoutBg { /* Opera */
+    from { color: red; }
+    to { color: black; }
+}
+
+.Spreadsheet .AddRowColumnButtons {
+  font-weight: bold;
+  color: #004A96;
+  background: #999 !important;
+}
+
+.Spreadsheet .AddColumnButton {
+  min-width: 40px !important;
+  max-width: 12em !important; 
+}
+
+.Spreadsheet .AddRowButton {
+  min-width: 6em !important;
+  max-width: 12em !important;
+}

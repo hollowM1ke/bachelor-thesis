@@ -1,0 +1,13 @@
+{
+    "teacher" : {
+        "experiments": ["read", "create", "update", "delete"],
+        "programs": ["read", "create", "update", "delete"],
+        "timestamps": ["read", "update"]
+    },
+    
+    "student" : {
+        "experiments": ["read"],
+        "programs": ["read"],
+        "timestamps": ["read", "update"]
+    }
+}

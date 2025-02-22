@@ -1,0 +1,16 @@
+div[id=editor-resizer] {
+    pointer-events: none; 
+}
+.ql-video {
+    pointer-events: auto;
+}
+#editor-resizer .handler {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    pointer-events: auto !important;
+}
+.toolbar {
+    pointer-events: auto;
+}
+

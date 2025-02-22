@@ -1,0 +1,110 @@
+{
+  "image": [],
+  "spreadsheet": [],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 780,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.3. Brennverhalten unbekannter Kunststoffe</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 15 Min.</h3>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 780,
+                  "height": 195
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Kartuschenbrenner</label>\n                            <label className='mx-5'>Alufolie</label>\n                            <label className='mx-5'>Becherglas 100 ml</label>\n                            <label className='mx-5'>Magnesiarinne</label>\n                            <label className='mx-5'>Holzklammer</label>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 575
+              },
+              "size": {
+                  "width": 780,
+                  "height": 135
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='is-align-items-center'>\n                                <label>Wasser</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>4 verschiedene Kunststoffgranulate</label>\n                            </div>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 720
+              },
+              "size": {
+                  "width": 780,
+                  "height": 860
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n\n                            <div>\n                                <label>Unter dem Abzug arbeiten!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Verwende Alufolie als Schutzunterlage für den Tisch. Stelle das Becherglas mit Wasser auf der Folie bereit.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Lege zwei Stückchen des zu untersuchenden Kunststoffgranulats auf eine Magnesiarinne und halte diese mit Hilfe einer Reagenzglasklammer in die Flamme des Kartuschenbrenners. <span className='has-text-danger'>Arbeite hinter der Abzugsscheibe und achte darauf, dass nichts auf den Brenner tropft.</span>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>3. </span>\n                            Prüfe genau, ob die Probe in der Flamme und außerhalb der Flamme brennt, und beobachte die Flammenfärbung sowie die Rußentwicklung. Trage die Ergebnisse deiner Beobachtungen in die Tabelle ein.<br/>\n                            <span className='has-text-danger'>Beachte, dass Geruchsproben verboten sind!</span>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>4. </span>\n                            Tauche die Magnesiarinne zum Erkalten in ein kleines Becherglas mit kaltem Wasser. Brich das verbrauchte Stück danach vorsichtig ab und gib es in den Tischabfallbehälter. Verwende die Rinne dann wieder.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>5. </span>\n                            Vergleiche die Werte mit den Literaturdaten und bestimme den Kunststoff.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Info: </span><br/>\n                            Farbstoffe, Füllstoffe und Weichmacher können die Ergebnisse verfälschen.\n                        </div>\n                    </div>\n\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1590
+              },
+              "size": {
+                  "width": 780,
+                  "height": 20
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<p className=\"title is-size-6 has-text-centered\">Die Ergebnisse kannst du in der Tabelle in \"Mein Board\" eintragen.</p>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1620
+              },
+              "size": {
+                  "width": 780,
+                  "height": 425
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className=\"box\">\n                        <p className=\"title has-text-info is-4\">Brennverhalten verschiedener Kunststoffe</p>\n                        <table className='table'>\n                            <thead>\n                                <tr>\n                                    <th>Brennbarkeit</th>\n                                    <th>Flamme</th>\n                                    <th>Kunststoff</th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr>\n                                    <td>nicht brennbar</td>\n                                    <td></td>\n                                    <td>PTFE</td>\n                                </tr>\n                                <tr>\n                                    <td>schwer entzündbar,<br/>erlischt außerhalb der Flamme</td>\n                                    <td>grüner Saum</td>\n                                    <td>PVC</td>\n                                </tr>\n                                <tr>\n                                    <td>brennt in der Flamme,<br/>erlischt außerhalb</td>\n                                    <td>leuchtend, rußend, gelb- grauer Rauch<br/>\n                                    gelborange blauer Rauch</td>\n                                    <td>PC<br/>\n                                    PA</td>\n                                </tr>\n                                <tr>\n                                    <td>brennt in der Flamme,<br/>\n                                    erlischt außerhalb langsam oder nicht</td>\n                                    <td>leuchtend, Zersetzung<br/>\n                                    gelborange, rußend<br/>\n                                    gelb, blauer Kern</td>\n                                    <td>PVAL<br/>\n                                    PET<br/>\n                                    PE, PP, PB</td>\n                                </tr>\n                                <tr>\n                                    <td>leicht entzündbar,<br/>brennt außerhalb der Flamme weiter</td>\n                                    <td>leuchtend, sehr stark rußend, leuchtend blauer Kern, knisternd</td>\n                                    <td>PS, PMMA, PAN</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n\n                </div>\n"
+          }
+      }
+  ],
+  "todolist": []
+}

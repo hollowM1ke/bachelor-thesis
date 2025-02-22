@@ -1,0 +1,191 @@
+{
+  "image": [],
+  "spreadsheet": [
+    
+    {
+        "componentData": {
+            "type": "spreadsheet",
+            "position": {
+                "x": 100,
+                "y": 1560
+            },
+            "size": {
+                "width": 780,
+                "height": 260
+            }
+        },
+        "innerData": {
+            "type": "spreadsheet",
+            "value": {
+                "data": [
+                    [
+                        [],
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ],
+                    [
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ]
+                ],
+                "meta": {
+                    "rows": 4,
+                    "columns": 6
+                },
+                "headers": [
+                    "Verhalten in Ethanol/Wasser 75% (w/w); d = 0,85 g/ml",
+                    "Verhalten in Wasser; d = 1,00 g/ml",
+                    "Verhalten in 20%iger Natrium-chloridlösung; d = 1,15 g/ml",
+                    "Verhalten in gesättigter Natrium- chloridlösung; d = 1,20 g/ml",
+                    "Ermittelter Dichtebereich [g/ml]",
+                    "Ermittelte Kunststoffsorte/n"
+                ]
+            }
+        }
+    }
+
+  ],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 780,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.2. Bestimmung der Dichte von Kunststoffen</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 30 Min.</h3>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 780,
+                  "height": 175
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Reagenzgläser</label>\n                            <label className='mx-5'>Reagenzglasständer</label>\n                            <label className='mx-5'>Becherglas 50 ml</label>\n                            <label className='mx-5'>Einwegpipetten</label>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 555
+              },
+              "size": {
+                  "width": 780,
+                  "height": 220
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='is-align-items-center'>\n                                <label>4 verschiedene Kunststoffgranulate</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>VE-Wasser</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>Natriumchloridlösung gesättigt</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>Natriumchloridlösung 20%ig</label>\n                            </div>\n                            <div className='columns is-align-items-center'>\n                                <label className='column is-one-third'>Ethanol/Wasser 75% (w/w)</label>\n                                <figure className='column is-flex is-flex-direction-row'>\n                                    <img className='image is-48x48' src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich\" />\n                                    <img className='image is-48x48' src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend\" />\n                                </figure>\n                                <strong className='column'>Gefahr</strong>\n                                <div className='column'></div>\n                            </div>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 785
+              },
+              "size": {
+                  "width": 780,
+                  "height": 765
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n\n                            <div>\n                                <label>Unter dem Abzug arbeiten!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Beschrifte vier Reagenzgläser mit 1 bis 4 und gib<br/><br/>\n                            in Reagenzglas 1:     5 ml Ethanol/Wasser 75%<br/>\n                            in Reagenzglas 2:     5 ml VE-Wasser<br/>\n                            in Reagenzglas 3:     5 ml Natriumchloridlösung 20%ig<br/>\n                            in Reagenzglas 4:     5 ml Natriumchloridlösung gesättigt\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Bestimme nacheinander die Dichte der vier Kunststoff-granulate:<br/><br/>\n                            Gib hierfür jeweils zwei Stückchen des zu untersuchenden Kunststoffgranulats in die Reagenzgläser 1 bis 4. Schüttle die Reagenzgläser und notiere, ob das Granulat schwimmt, schwebt oder sinkt.<br/><br/>\n                            Schätze die Dichte des Kunststoffgranulats ab, indem du die Dichtewerte der eingesetzten Lösungen zu Hilfe nimmst. Notiere deine Ergebnisse in der Tabelle.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Gieße die Inhalte der Reagenzgläser durch ein Sieb und gib die Kunststoffproben in den Behälter für Feststoffabfälle. Alle wässrigen Lösungen kannst du über die Spüle entsorgen, da eine Kläranlage nachgeschaltet ist. Spüle die Reagenzgläser mit Flusswasser aus und stelle sie in den bereitgestellten Spülkorb mit der Öffnung nach oben.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1830
+              },
+              "size": {
+                  "width": 780,
+                  "height": 40
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<p className=\"title is-size-6 has-text-centered\">\nWenn die Tabelle vollständig ausgefüllt ist, kannst du die Spalten E und F in die Ergebnistabelle in \"Mein Board\" übertragen.\n</p>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 1880
+              },
+              "size": {
+                  "width": 780,
+                  "height": 550
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className=\"box\">\n                        <p className=\"title has-text-info is-4\">Dichte verschiedener Kunststoffe</p>\n                        <table className=\"table\">\n                            <thead>\n                                <tr>\n                                    <th>Dichte [g/ml]</th>\n                                    <th>Kurzbezeichnung</th>\n                                    <th>Kunststoff</th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr>\n                                    <td>0,93 - 0,98</td>\n                                    <td>PE</td>\n                                    <td>Polyethylen</td>\n                                </tr>\n                                <tr>\n                                    <td>1,04 - 1,08</td>\n                                    <td>PS</td>\n                                    <td>Polystyrol</td>\n                                </tr>\n                                <tr>\n                                    <td>1,12 - 1,15</td>\n                                    <td>PA</td>\n                                    <td>Polyamid</td>\n                                </tr>\n                                <tr>\n                                    <td>1,16 - 1,20</td>\n                                    <td>PMMA</td>\n                                    <td>Polymethylmethacrylat</td>\n                                </tr>\n                                <tr>\n                                    <td>1,21 - 1,31</td>\n                                    <td>PVAL</td>\n                                    <td>Polyvinylalkohol</td>\n                                </tr>\n                                <tr>\n                                    <td>1,38 - 1,41</td>\n                                    <td>PVC</td>\n                                    <td>Polyvinylchlorid</td>\n                                </tr>\n                                <tr>\n                                    <td>1,38 - 1,41</td>\n                                    <td>PET</td>\n                                    <td>Polyethylenterephthalat</td>\n                                </tr>\n                                <tr>\n                                    <td>1,18 - 1,20</td>\n                                    <td>PAN</td>\n                                    <td>Polyacrylnitril</td>\n                                </tr>\n                                <tr>\n                                    <td>2,16 - 2,18</td>\n                                    <td>PTFE</td>\n                                    <td>Polytetraflourethylen</td>\n                                </tr>\n                                <tr>\n                                    <td>0,90 - 0,95</td>\n                                    <td>PP</td>\n                                    <td>Polypropylen</td>\n                                </tr>\n                                <tr>\n                                    <td>0,89 - 0,91</td>\n                                    <td>PB</td>\n                                    <td>Polybutylen</td>\n                                </tr>\n                                <tr>\n                                    <td>1,18 - 1,21</td>\n                                    <td>PC</td>\n                                    <td>Polycarbonat</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 2440
+              },
+              "size": {
+                  "width": 780,
+                  "height": 258
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "                    <div className=\"box\">\n                        <p className=\"title has-text-info is-4\">Mögliche Gefahren</p>\n\n                        <table className=\"table is-bordered\">\n                            <tbody>\n                                <tr className=\"columns\">\n                                    <td>\n                                        <p className=\"block\">Ethanol/Wasser 75% (w/w)</p>\n                                        <figure style=\"width: 128px;\" className=\"is-flex is-flex-direction-row block\">\n                                            <img className=\"image is-64x64\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich\"></img>\n                                            <img className=\"image is-64x64\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend\"></img>\n                                        </figure>\n                                        <strong className=\"block\">Gefahr</strong>\n                                    </td>\n                                    <td>\n                                        <p className=\"block\">Gefahrenhinweise</p>\n                                        <div className=\"columns block is-multiline pb-3\">\n                                            <span className=\"column py-1 is-2\">H225</span>\n                                            <span className=\"column py-1 is-10\">Flüssigkeit und Dampf leicht entzündbar.</span>\n                                            <span className=\"column py-1 is-2\">H319</span>\n                                            <span className=\"column py-1 is-10\">Verursacht schwere Augenreizung.</span>\n                                        </div>\n                                    </td>\n                                </tr>\n                            </tbody>\n                        </table>\n\n                    </div>\n\n"
+          }
+      }
+  ],
+  "todolist": []
+}

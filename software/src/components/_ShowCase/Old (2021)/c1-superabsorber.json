@@ -1,0 +1,76 @@
+{
+  "image": [],
+  "spreadsheet": [],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 750,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>C.1. Funktionsweise von Superabsorbern</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 15 Min.</h3>\n                    </div>\n"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 750,
+                  "height": 170
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>3 Bechergläser 250 ml</label>\n                            <label className='mx-5'>Becherglas 50 ml</label>\n                            <label className='mx-5'>Glasstab</label>\n                            <label className='mx-5'>Spatellöffel</label>\n                        </div>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 550
+              },
+              "size": {
+                  "width": 750,
+                  "height": 175
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='is-align-items-center'>\n                                <label>Superabsorber Hysorb</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>Trink- bzw. Betriebswasser</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>VE-Wasser</label>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>Natriumchlorid</label>\n                            </div>\n                        </div>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 735
+              },
+              "size": {
+                  "width": 749,
+                  "height": 675
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Stelle 150 ml einer 0,9%igen Natriumchloridlösung her.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Beschrifte die 250-ml-Bechergläser mit 1 bis 3 und gib<br/><br/>\n                            in Becherglas 1:     150 ml Trinkwasser<br/>\n                            in Becherglas 2:     150 ml VE-Wasser<br/>\n                            in Becherglas 3:     150 ml 0,9%ige Natriumchloridlösung.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>3. </span>\n                            Gib je 1 g Superabsorber in die Bechergläser 1 bis 3 und rühre mit dem Glasstab um. Beobachte genau, was passiert.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Schütte die Inhalte der Bechergläser in ein Sieb. Entsorge den Superabsorber in den Behälter für Feststoffabfälle (Hobbock) und <span className='has-text-weight-bold'><u>auf keinen Fall</u> in den Abguss (Verstopfungsgefahr)!</span>\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>"
+          }
+      }
+  ],
+  "todolist": []
+}

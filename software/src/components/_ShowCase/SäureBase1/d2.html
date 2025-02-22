@@ -1,0 +1,298 @@
+<div style="padding:10px;">
+<table width=100% style="font-size:xx-large">
+<tr valign="top">
+<th id="experimentScriptId">D.2.</th>
+<th style="text-align:left">Titration von Phosphorsäure mit Natronlauge gegen Indikator</th>
+</tr>
+<tr>
+<td />
+<td>
+<p style="color:gray;margin-top:0;padding-top:0;">(Dauer: 1 Stunde)</p>
+</td>
+</tr>
+</table>
+<hr />
+<table width=100% style="font-size:x-large">
+<tr valign="top">
+<th width=20%>Materialien:</th>
+<td>
+Weithals-Erlenmeyerkolben 250 ml</br>
+Becherglas 250 ml</br>
+Vollpipette 25 ml</br>
+Pipettierhilfe</br>
+Trichter</br>
+Rührfisch</td>
+<td>
+Stativ</br>
+Bürette 50 ml</br>
+2 Bürettenklammern</br>
+Magnetheizplatte</br>
+weißes Papier</br>
+</td>
+</tr>
+</table>
+<hr />
+<table width=100% style="font-size:x-large">
+<tr>
+<th width=20%>Chemikalien:</th>
+<td>
+Phosphorsäure unbekannter Konzentration <img style='vertical-align:middle;margin-left:20px' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv"> <b>Achtung</b>
+</td>
+</tr>
+<tr>
+<td />
+<td>
+Natronlauge 0,1 mol/l <img style='vertical-align:middle;margin-left:20px' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv"> <b>Achtung</b></br>
+VE-Wasser</br><hr style="visibility:hidden"/>
+Ethanolische Thymolblau-Lösungen: <img style='vertical-align:middle;margin-left:20px' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich"> <img style='vertical-align:middle;' width="60" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend"> <b>Gefahr</b></br>
+Wässrige Methylorange-Lösung 0,1%</br>
+</td>
+</tr>
+</table>
+<hr />
+<style>
+.blur {
+filter: blur(0.5rem);
+pointer-events: none;
+}
+.checkSafetyIconHide {
+display: none;
+}
+</style>
+<script>
+// Experiment ID, used as cache name
+user = new URLSearchParams(window.location.search).get('id');
+sid = document.getElementById('experimentScriptId').textContent + user + window.location.pathname;
+
+// Load cache states
+checkSafety = document.getElementById('scriptSafetyCheckbox');
+checkboxes = document.querySelectorAll('input[type=checkbox]');
+if (window.sessionStorage.getItem(sid)) {
+storage = JSON.parse(window.sessionStorage.getItem(sid));
+for (var i = 0; i < checkboxes.length; i++) {
+if ((storage[checkboxes[i].id]) && (checkboxes[i].id == 'scriptSafetyCheckbox')) {
+document.getElementById('blurPart').classList.remove('blur');
+checkSafety.checked = true;
+} else {
+checkboxes[i].checked = storage[checkboxes[i].id];
+}
+}
+}
+
+// Handling blur and safety checkmark/cross
+checkSafety.onclick = function(e) {
+document.getElementById('blurPart').classList.toggle('blur');
+storeInCache(e.target);
+}
+
+// Handling execution step checkbox caching
+for (var i = 0; i < checkboxes.length; i++) {
+if (!(checkboxes[i].id == 'scriptSafetyCheckbox')) {
+checkboxes[i].onclick = function(e) {
+storeInCache(e.target);
+}
+}
+}
+
+// Caching
+function storeInCache(node) {
+var nodeInfo = {};
+if (window.sessionStorage.getItem(sid)) {
+nodeInfo = JSON.parse(window.sessionStorage.getItem(sid));
+} 
+nodeInfo[node.id] = node.checked;
+window.sessionStorage.setItem(sid, JSON.stringify(nodeInfo));
+}
+
+</script>
+<table width=100% style="font-size:x-large;border-spacing:0 6px">
+<tr>
+<th width=20%>Sicherheit:</th>
+<td>Schutzbrille</td>
+</tr>
+<tr>
+<th />
+<td>Unter dem Abzug arbeiten</td>
+</tr>
+</table>
+<div id="note" style="display:flex;justify-content:space-between;font-size:x-large;align-items:center;margin:0 0 0 20%">
+<p>Ich habe die Sicherheitshinweise gelesen und verstanden!</p>
+<div id="checkSafetyIcon">
+<input id="scriptSafetyCheckbox" style="width:35px;height:35px;margin-right:20px" type="checkbox" />
+</div>
+</div>
+<hr />
+<div id="table" style="display:flex;font-size:x-large;">
+<b id="title" style="flex-basis:20%;text-align:center">Durchführung:</b>
+<div id="blurPart" class="blur" style="width=80%">
+<b style="padding-left:30px;">Titration mit Methylorange als Indikator</b>
+<ol style="flex-basis:80%;margin:0;padding-left:30px;">
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Befestige die Bürette mit 2 Bürettenklammern am Stativ und</br>
+achte darauf, dass der Hahn der Bürette geschlossen ist!</br>
+Stelle das Becherglas unter die Bürette.</br>
+Fülle über den Trichter die Natronlauge bis über die Nullmarke in</br>
+die Bürette. Lass anschließend Natronlauge in das Becherglas</br>
+ab, so dass noch genau 50 ml in der Bürette enthalten sind.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox1" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Gib einen Rührfisch in den Erlenmeyerkolben, pipettiere genau</br>
+25 ml Phosphorsäure hinzu und fülle mit VE-Wasser auf 150 ml auf.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox2" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Gib drei Tropfen der Methylorange-Lösung zur Säure.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox3" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Lege ein weißes Papier auf die Magnetheizplatte und stelle den</br>
+Erlenmeyerkolben darauf. Schalte die Rührfunktion ein und</br>
+achte darauf, dass die Heizplatte ausgeschaltet ist. Tropfe</br>
+portionsweise Natronlauge aus der Bürette zur vorgelegten</br>
+Säure.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox4" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Titriere in kleinen Schritten weiter. Beende die Titration nach</br>
+dem Farbumschlag des Indikators.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox5" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Wiederhole die Titration ein weiteres Mal. Reinige hierfür den</br>
+Erlenmeyerkolben mit VE-Wasser und verwende ihn wieder. Bei</br>
+der ersten Titration hast du einen Farbumschlag des Indikators</br>
+beobachtet. Gib jetzt kurz vor dem Umschlagspunkt die</br>
+Natronlauge tropfenweise (!) dazu, damit du den Farbumschlag</br>
+exakt bestimmen kannst. 
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox6" /></span>
+</div>
+</li>
+</ol>
+<ol id="blurPart" style="flex-basis:80%;margin:20 0;padding-left:30px;list-style:none;">
+<li>
+<b>Titration mit Thymolblau als Indikator</b>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Führe die Titration nun zwei Mal mit der Thymolblau-Indikator-<br>
+lösung druch, um den zweiten Umschlagspunkt festzustellen.<br>
+Verfahre wie oben beschrieben.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox7" /></span>
+</div>
+</li>
+<li>
+<div style="display:flex;justify-content:space-between;min-height:41px;">
+<span>
+Diskutiere die Ergebnisse mit dem Betreuer.
+</span>
+<span style="text-align:right;"><input style="width:35px;height:-webkit-fill-available;margin-right:20px" type="checkbox" id="scriptCheckbox8" /></span>
+</div>
+</li>
+</div>
+</div>
+<hr />
+<table width=100% style="font-size:x-large;border-collapse:separate;border-spacing:0 20px;">
+<tr valign="top">
+<th width=20%>Entsorgung:</th>
+<td>
+Überprüfe, ob du die Bürette mit der Natronlauge noch für</br>
+weitere Titrationen benötigst. Falls ja, kannst du sie</br>
+weiterverwenden. Falls nein, spüle die Bürette am Stativ</br>
+zweimal mit VE-Wasser und lege sie an den vorgesehenen</br>
+Platz.
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox1" /></p>
+</td>
+</tr>
+<tr>
+<th />
+<td>
+Spüle die Pipetten zweimal mit VE-Wasser aus der</br>
+Spritzflasche und stelle sie vorsichtig in den bereitgestellten</br>
+Pipettenständer.  
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox2" /></p>
+</td>
+</tr>
+<tr>
+<th />
+<td>
+Alle wässrigen anorganischen Lösungen können über die</br>
+Spüle entsorgt werden, da eine Kläranlage nachgeschaltet</br>
+ist.
+</td>
+<td style="vertical-align:middle;">
+<p style="text-align:right;margin:0;"><input style="width:35px;height:35px;margin-right:20px" type="checkbox" id="scriptCleanupCheckbox3" /></p>
+</td>
+</tr>
+</table>
+<hr />
+<table style="font-size:x-large;border-spacing:0;margin:0 auto">
+<tr>
+<th colspan=2 style="font-size:xx-large">Mögliche Gefahren</th>
+</tr>
+<tr valign="top">
+<th style="border:2px solid black;border-right:0;border-bottom:0;padding:10px;text-align:left">
+Phosphorsäure</br>in den vorgegebenen</br>Konzentrationen</br>
+<img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv" /> </br>
+Achtung
+</th>
+<td style="border:2px solid black;border-bottom:0;padding:10px;font-size:large">
+<b>Gefahrenhinweis</b></br>
+H290 Kann gegenüber Metallen korrosiv sein. 
+</td>
+</tr>
+<tr valign="top">
+<th style="border:2px solid black;border-right:0;border-bottom:0;padding:10px;text-align:left">
+Natronlauge 0,1 mol/l</br>
+<img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv" /> </br>
+Achtung
+</th>
+<td style="border:2px solid black;border-bottom:0;padding:10px;font-size:large">
+<b>Gefahrenhinweis</b></br>
+H290 Kann gegenüber Metallen korrosiv sein. 
+</td>
+</tr>
+<tr valign="top">
+<th style="border:2px solid black;border-right:0;padding:10px;text-align:left">
+Thymolblau-Lösung</br>0,1%ig in Ethanol</br>
+<img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich" /><img width="80" src="http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend" /> </br>
+Gefahr
+</th>
+<td style="border:2px solid black;padding:10px;font-size:large">
+<b>Gefahrenhinweis</b></br>
+H225 Flüssigkeit und Dampf leicht entzündbar.</br>
+H319 Verursacht schwere Augenreizung. 
+</td>
+</tr>
+</table>
+
+</div>

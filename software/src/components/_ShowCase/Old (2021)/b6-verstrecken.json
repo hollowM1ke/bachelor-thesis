@@ -1,0 +1,59 @@
+{
+  "image": [],
+  "spreadsheet": [],
+  "markdown": [],
+  "htmlcomp": [
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 200
+              },
+              "size": {
+                  "width": 750,
+                  "height": 160
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.6. Verstrecken eines Kunststofffadens</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 5 Min.</h3>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 370
+              },
+              "size": {
+                  "width": 750,
+                  "height": 130
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Unverstreckter Kunstrasen</label>\n                            <label className='mx-5'>Faden aus unverstrecktem Polyamid</label>\n                        </div>\n                    </div>"
+          }
+      },
+      {
+          "componentData": {
+              "type": "htmlcomp",
+              "position": {
+                  "x": 100,
+                  "y": 510
+              },
+              "size": {
+                  "width": 750,
+                  "height": 445
+              }
+          },
+          "innerData": {
+              "type": "htmlcomp",
+              "value": "<div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            Ziehe den jeweiligen Faden gleichmäßig kräftig auseinander.<br/><br/>\n                            Um welchen Faktor wird der Faden länger?<br/>\n                            Was kannst du noch beobachten?\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Wirf die verstreckten Fäden in den Tischabfallbehälter.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>"
+          }
+      }
+  ],
+  "todolist": []
+}

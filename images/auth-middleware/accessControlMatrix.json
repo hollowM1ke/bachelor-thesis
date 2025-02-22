@@ -1,0 +1,9 @@
+{
+    "teacher" : {
+        "media": ["update", "read"]
+    },
+    
+    "student" : {
+        "media" : ["update", "read"]
+    }
+}

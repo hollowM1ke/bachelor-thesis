@@ -1,0 +1,522 @@
+{
+    "image": [],
+    "spreadsheet": [
+        {
+            "componentData": {
+                "type": "spreadsheet",
+                "position": {
+                    "x": 1484.8809523809553,
+                    "y": 979.2857142857147
+                },
+                "size": {
+                    "height": 200,
+                    "width": 200
+                },
+                "createdBy": "a111",
+                "createdOn": "22/01/23, 20:58",
+                "label": {
+                    "labelId": "b6b35d02-4ab6-43fa-a8e1-4ff0664f8e96",
+                    "description": "Titrationstabelle - Vorlage"
+                }
+            },
+            "innerData": {
+                "type": "spreadsheet",
+                "value": {
+                    "data": [
+                        [
+                            {
+                                "value": "0",
+                                "type": "text",
+                                "timestamp": 1674417524988,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            },
+                            {
+                                "value": "",
+                                "type": "text",
+                                "timestamp": 1674417524989,
+                                "color": "#ffffff"
+                            }
+                        ]
+                    ],
+                    "meta": {
+                        "rows": [
+                            "r1",
+                            "24ef1c6e-63b2-4fe7-a270-ce59c794eff6",
+                            "1ef379fb-98d3-4395-ada1-a8803ea03f7d",
+                            "74781107-130c-45c3-b374-b2435b8cdada",
+                            "9f2e4126-77a4-4d00-bbd5-8c2eecb34f90",
+                            "df1a0efd-1ca0-4c6c-9376-6a952b2dfea1",
+                            "ddfc303b-92e3-4ff9-bc0f-6e0549f2cab8",
+                            "d8b1aec7-aed3-402d-ba3f-1bdb41a86a15",
+                            "89dcc868-f4e0-471b-a9cf-6933a236663b",
+                            "16404858-bd6b-4b8c-bdfa-2996e29515dd",
+                            "155c9089-01c1-4044-be7c-a2f9b027315f",
+                            "74e56629-6cfe-4a94-b856-f9722ef07c89",
+                            "bcfcd960-12ff-4cdc-a4e2-96b61f7e0b3a",
+                            "749049f6-3349-4161-8da9-7ab88a9839f3",
+                            "acb2e600-e75f-45ab-a4c2-d229f7b85250",
+                            "a20df4f6-641c-468f-ac50-35d18cc32776",
+                            "ab5d6c3a-21ad-4db6-a951-b851eb1a2abd",
+                            "a35e22ff-bc7c-46d1-9aa0-7fb69e2437b8",
+                            "239774d0-b6ab-4bc8-87f9-76b5ed04882e",
+                            "3d9a1949-e375-4271-a995-845ca00d82e5",
+                            "5f9e324d-78e4-4428-b4aa-d6e0f1ad0132",
+                            "9d01274c-1fa6-4d31-94e5-8ae85ad587ea",
+                            "0daf08dd-a679-438a-8a02-8e3e15bce516",
+                            "6cff00b3-2681-4d16-91ad-6ed8d4dfddb5",
+                            "196cc855-f55d-43a2-b587-a6ab737f27b3",
+                            "c72b54b6-ab79-44e1-b6e0-1c1da5b32e83",
+                            "7c57434d-2977-4f2f-a7a9-16a54e167bf5",
+                            "95d90c96-6fb1-4483-8952-aab3f978b248",
+                            "f17a8e64-9f52-4cad-b567-ea64b3645b55",
+                            "1c2f5c19-287d-45c6-8b43-93fe03e3477f"
+                        ],
+                        "columns": [
+                            "c1",
+                            "4b0d4ca8-02d0-4ec7-bfb3-ae391dfe363a"
+                        ]
+                    },
+                    "headers": [
+                        "ml",
+                        "pH-Wert"
+                    ],
+                    "cellhighlightformatrules": {}
+                }
+            }
+        }
+    ],
+    "markdown": [],
+    "htmlcomp": [
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 186,
+                    "y": 214
+                },
+                "size": {
+                    "height": 3064,
+                    "width": 1194
+                },
+                "createdBy": "a111",
+                "createdOn": "22/01/23, 20:57",
+                "label": {
+                    "labelId": "2d06beb3-a6a0-4d09-933d-0f3edd52a39f",
+                    "description": "Skript"
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "<div style=\"padding:10px;\">\n<table width=100% style=\"font-size:xx-large\">\n<tr valign=\"top\">\n<th id=\"experimentScriptId\">C.2.</th>\n<th style=\"text-align:left\">Titration von Essig- oder Ameisensäure mit Natronlauge und pH-Meter</th>\n</tr>\n<tr>\n<td />\n<td>\n<p style=\"color:gray;margin-top:0;padding-top:0;\">(Dauer: 1 Stunde)</p>\n</td>\n</tr>\n</table>\n<hr />\n<table width=100% style=\"font-size:x-large\">\n<tr valign=\"top\">\n<th width=20%>Materialien:</th>\n<td>\n2 Bechergläser 250 ml</br>\nVollpipette 25 ml</br>\nPipettierhilfe</br>\nTrichter</br>\nBürette 50 ml</br>\n2 Bürettenklammern\n</td>\n<td>\npH-Meter</br>\nMagnetheizplatte</br>\nRührfisch</br>\nStativ</br>\nMuffe und Klemme\n</td>\n</tr>\n</table>\n<hr />\n<table width=100% style=\"font-size:x-large\">\n<tr>\n<th width=20%>Chemikalien:</th>\n<td>\nEssigsäure oder Ameisensäure unbekannter Konzentration</br>\n</td>\n</tr>\n<tr>\n<td />\n<td>\nNatronlauge 0,1 mol/l <img style='vertical-align:middle;margin-left:20px' width=\"60\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv\"> <b>Achtung</b></br>\nVE-Wasser</br><hr style=\"visibility:hidden\"/>\n</td>\n</tr>\n</table>\n<hr />\n<style>\n.blur {\nfilter: blur(0.5rem);\npointer-events: none;\n}\n.checkSafetyIconHide {\ndisplay: none;\n}\n</style>\n<script>\n// Experiment ID, used as cache name\nuser = new URLSearchParams(window.location.search).get('id');\nsid = document.getElementById('experimentScriptId').textContent + user + window.location.pathname;\n\n// Load cache states\ncheckSafety = document.getElementById('scriptSafetyCheckbox');\ncheckboxes = document.querySelectorAll('input[type=checkbox]');\nif (window.sessionStorage.getItem(sid)) {\nstorage = JSON.parse(window.sessionStorage.getItem(sid));\nfor (var i = 0; i < checkboxes.length; i++) {\nif ((storage[checkboxes[i].id]) && (checkboxes[i].id == 'scriptSafetyCheckbox')) {\ndocument.getElementById('blurPart').classList.remove('blur');\ncheckSafety.checked = true;\n} else {\ncheckboxes[i].checked = storage[checkboxes[i].id];\n}\n}\n}\n\n// Handling blur and safety checkmark/cross\ncheckSafety.onclick = function(e) {\ndocument.getElementById('blurPart').classList.toggle('blur');\nstoreInCache(e.target);\n}\n\n// Handling execution step checkbox caching\nfor (var i = 0; i < checkboxes.length; i++) {\nif (!(checkboxes[i].id == 'scriptSafetyCheckbox')) {\ncheckboxes[i].onclick = function(e) {\nstoreInCache(e.target);\n}\n}\n}\n\n// Caching\nfunction storeInCache(node) {\nvar nodeInfo = {};\nif (window.sessionStorage.getItem(sid)) {\nnodeInfo = JSON.parse(window.sessionStorage.getItem(sid));\n} \nnodeInfo[node.id] = node.checked;\nwindow.sessionStorage.setItem(sid, JSON.stringify(nodeInfo));\n}\n\n</script>\n<table width=100% style=\"font-size:x-large;border-spacing:0 6px\">\n<tr>\n<th width=20%>Sicherheit:</th>\n<td>Schutzbrille</td>\n</tr>\n<tr>\n<th />\n<td>Unter dem Abzug arbeiten</td>\n</tr>\n</table>\n<div id=\"note\" style=\"display:flex;justify-content:space-between;font-size:x-large;align-items:center;margin:0 0 0 20%\">\n<p>Ich habe die Sicherheitshinweise gelesen und verstanden!</p>\n<div id=\"checkSafetyIcon\">\n<input id=\"scriptSafetyCheckbox\" style=\"width:35px;height:35px;margin-right:20px\" type=\"checkbox\" />\n</div>\n</div>\n<hr />\n<div id=\"table\" style=\"display:flex;font-size:x-large;\">\n<b id=\"title\" style=\"flex-basis:20%;text-align:center\">Durchführung:</b>\n<ol id=\"blurPart\" class=\"blur\" style=\"flex-basis:80%;margin:0;padding-left:30px;\">\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nBefestige die Bürette mit 2 Bürettenklammern am Stativ und</br>\nachte darauf, dass der Hahn der Bürette geschlossen ist!</br>\nStelle das Becherglas unter die Bürette.</br>\nFülle über den Trichter die Natronlauge bis über die Nullmarke in</br>\ndie Bürette. Lass anschließend Natronlauge in das Becherglas</br>\nab, so dass noch genau 50 ml in der Bürette enthalten sind.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox1\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nGib einen Rührfisch in das saubere Becherglas, pipettiere genau</br>\n25 ml der Säure hinzu und fülle mit VE-Wasser auf 150 ml auf.<br>\nStelle das Becherglas auf den Magnetrührer.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox2\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nKopiere die Tabelle rechts neben diesem Skript in das private<br>\nNotizbuch<img src=\"https://softech-git.cs.uni-kl.de/basf-labbook/documentation/-/raw/main/images/skript.png\" style=\"height: 1.5rem;margin-right:-10px;\"/>. Mit einem Halten auf der Tabelle kann unter<br>\nder Option \"Label\" ein Name für die Tabelle vergeben werden.<br>\nPlatzieren dann ein Diagramm-Element aus der ToolBox in dem<br>\nNotizbuch und wähle die folgdenen Einstellungen:\n<ul>\n<li style=\"margin-bottom:5px\">\nTabelle: Der eben vergebene Name\n</li>\n<li style=\"margin-bottom:5px\">\nDiagramm: Liniendiagramm\n</li>\n<li style=\"list-style:none;margin-bottom:5px\">Und auf der nächsten Seite:</li>\n<li>\nSkalierung der y-Achse: von 0 (minY) bis 15 (maxY)\n</li>\n</ul>\nDas Diagramm wird automatisch aktualisiert, wenn die Tabelle<br>\nverändert wird.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox3\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nBefestige die Elektrode des pH-Meters mit Klemme und</br>\nMuffe am Stativ, so dass sie in die Salzsäure im Becherglas</br>\ntaucht.</br>\nSchalte am Magnetrührer die Rührfunktion ein und achte</br>\ndarauf, dass der Rührfisch beim Rühren nicht an die Elektrode</br>\nschlägt. Vergewissere dich, dass die Heizplatte ausgeschaltet</br>\nist. Lies den pH-Wert ab und notiere ihn in der Tabelle im</br>\nLabbook.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox4\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nTropfe 1 ml der Natronlauge aus der Bürette zur vorgelegten<br>\nSäure. Warte bei laufendem Rührer kurz und lies danach<br>\nerneut den pH-Wert ab und trage die neuen Messwerte in die<br>\nTabelle im Labbook ein.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox5\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nTitriere in 1-ml-Schritten weiter. Notiere jeweils die pH-Werte<br>\nund Volumina an zugegebener Natronlauge in der Tabelle im<br>\nLabbook und beobachte die Änderungen im Diagramm.<br>\nBeende die Titration erst, wenn der pH-Wert deutlich im<br>\nbasischen Bereich liegt.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox6\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nDiskutiere das Ergebnis mit deinem Betreuer.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox7\" /></span>\n</div>\n</li>\n<li>\n<div style=\"display:flex;justify-content:space-between;min-height:41px;\">\n<span>\nWenn eine weitere Titration nötig ist, reinige das<br>\nBecherglas mit VE-Wasser und verwende es wieder. Bei der<br>\nersten Titration hast du eine sprunghafte Änderung des pH-<br>\nWertes festgestellt. Gib jetzt kurz vor diesem Punkt die<br>\nNatronlauge tropfenweise (!) dazu, damit du die Werte am<br>\nUmschlagspunkt genauer bestimmen kannst.\n</span>\n<span style=\"text-align:right;\"><input style=\"width:35px;height:-webkit-fill-available;margin-right:20px\" type=\"checkbox\" id=\"scriptCheckbox8\" /></span>\n</div>\n</li>\n</ol>\n</div>\n<hr />\n<table width=100% style=\"font-size:x-large;border-collapse:separate;border-spacing:0 20px;\">\n<tr valign=\"top\">\n<th width=20%>Entsorgung:</th>\n<td>\nÜberprüfe, ob du die Bürette mit der Natronlauge noch für</br>\nweitere Titrationen benötigst. Falls ja, kannst du sie</br>\nweiterverwenden. Falls nein, spüle die Bürette am Stativ</br>\nzweimal mit VE-Wasser und lege sie an den vorgesehenen</br>\nPlatz.\n</td>\n<td style=\"vertical-align:middle;\">\n<p style=\"text-align:right;margin:0;\"><input style=\"width:35px;height:35px;margin-right:20px\" type=\"checkbox\" id=\"scriptCleanupCheckbox1\" /></p>\n</td>\n</tr>\n<tr>\n<th />\n<td>\nReinige das pH-Meter mit VE-Wasser. Spüle die Pipetten</br>\nzweimal mit VE-Wasser aus der Spritzflasche und stelle sie</br>\nvorsichtig in den bereitgestellten Pipettenständer.\n</td>\n<td style=\"vertical-align:middle;\">\n<p style=\"text-align:right;margin:0;\"><input style=\"width:35px;height:35px;margin-right:20px\" type=\"checkbox\" id=\"scriptCleanupCheckbox2\" /></p>\n</td>\n</tr>\n<tr>\n<th />\n<td>\nAlle wässrigen anorganischen Lösungen können über die</br>\nSpüle entsorgt werden, da eine Kläranlage nachgeschaltet</br>\nist.\n</td>\n<td style=\"vertical-align:middle;\">\n<p style=\"text-align:right;margin:0;\"><input style=\"width:35px;height:35px;margin-right:20px\" type=\"checkbox\" id=\"scriptCleanupCheckbox3\" /></p>\n</td>\n</tr>\n</table>\n<hr />\n<table style=\"font-size:x-large;border-spacing:0;margin:0 auto\">\n<tr>\n<th colspan=2 style=\"font-size:xx-large\">Mögliche Gefahren</th>\n</tr>\n<tr valign=\"top\">\n<th style=\"border:2px solid black;border-right:0;padding:10px;text-align:left\">\nNatronlauge 0,1 mol/l</br>\n<img width=\"80\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/atzend-korrosiv\" /> </br>\nAchtung\n</th>\n<td style=\"border:2px solid black;padding:10px;font-size:large\">\n<b>Gefahrenhinweis</b></br>\nH290 Kann gegenüber Metallen korrosiv sein. \n</td>\n</tr>\n</table>\n\n</div>"
+            }
+        }
+    ],
+    "todolist": [],
+    "diagram": []
+}

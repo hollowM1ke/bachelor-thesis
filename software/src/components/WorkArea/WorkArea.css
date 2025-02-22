@@ -1,0 +1,20 @@
+.zoomOptionsright {
+    right: 15px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 999;
+}
+
+.zoomOptionsleft {
+    left: 15px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 999;
+}
+
+.zoomOptions {
+    right: 15px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 999;
+}

@@ -1,0 +1,231 @@
+{
+    "image": [],
+    "spreadsheet": [
+        {
+            "componentData": {
+                "type": "spreadsheet",
+                "position": {
+                    "x": 100,
+                    "y": 1415
+                },
+                "size": {
+                    "width": 780,
+                    "height": 345
+                }
+            },
+            "innerData": {
+                "type": "spreadsheet",
+                "value": {
+                    "data": [
+                        [
+                            {
+                                "value": "[B.1.] Löslichkeit in Aceton: ja/nein",
+                                "type": "text",
+                                "timestamp": 1638459589178
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            []
+                        ],
+                        [
+                            {
+                                "value": "[B.2.] Dichtebereich: g/ml",
+                                "type": "text",
+                                "timestamp": 1638459747955
+                            }
+                        ],
+                        [
+                            {
+                                "value": "[B.3.] Brennverhalten",
+                                "type": "text",
+                                "timestamp": 1638459651106
+                            }
+                        ],
+                        [
+                            {
+                                "value": "[B.3.] Flammenfärbung",
+                                "type": "text",
+                                "timestamp": 1638459678102
+                            }
+                        ],
+                        [
+                            {
+                                "value": "[B.3.] Rußentwicklung",
+                                "type": "text",
+                                "timestamp": 1638459689628
+                            }
+                        ],
+                        [
+                            {
+                                "value": "[B.3.] Geräuschentwicklung",
+                                "type": "text",
+                                "timestamp": 1638459702075
+                            }
+                        ],
+                        [
+                            {
+                                "value": "[B.4.] Pyrolyse: pH-Wert",
+                                "type": "text",
+                                "timestamp": 1638459720125
+                            }
+                        ]
+                    ],
+                    "meta": {
+                        "rows": 7,
+                        "columns": 6
+                    },
+                    "headers": [
+                        "Eigenschaften",
+                        "Probe 1",
+                        "Probe 2",
+                        "Probe 3",
+                        "Probe 4",
+                        "Ermittelte Kunststoffsorte/n"
+                    ]
+                }
+            }
+        }
+    ],
+    "markdown": [],
+    "htmlcomp": [
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 200
+                },
+                "size": {
+                    "width": 780,
+                    "height": 160
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "<div className='box mb-7 pb-7'>\n                        <h3 className='is-size-2 title has-text-info'>B.1. Löslichkeit unbekannter Kunststoffe</h3>\n                        <h3 className='is-size-5 subtitle has-text-grey-light'>Dauer: 20 Min. + 30 Min. Wartezeit</h3>\n                    </div>"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 370
+                },
+                "size": {
+                    "width": 780,
+                    "height": 155
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "                    <div className='box' id='Material'>\n                        <h3 className='is-size-4 title has-text-info'>Material</h3>\n                        <div className='is-flex is-flex-direction-column'>\n                            <label className='mx-5'>Reagenzgläser</label>\n                            <label className='mx-5'>Reagenzglasständer</label>\n                            <label className='mx-5'>Einwegpipetten</label>\n                        </div>\n                    </div>\n"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 535
+                },
+                "size": {
+                    "width": 780,
+                    "height": 185
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "                    <div className='box mb-7 pb-7' id='Chemikalien'>\n\n                        <h3 className='is-size-4 title has-text-info'>Chemikalien</h3>\n\n                        <div className='mx-5'>\n                            <div className='columns is-align-items-center'>\n                                <label className='column'>Aceton</label>\n                                <figure className='column is-flex is-flex-direction-row'>\n                                    <img className='image is-48x48' src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich\" />\n                                    <img className='image is-48x48' src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend\" />\n                                </figure>\n                                <strong className='column'>Gefahr</strong>\n                                <div className='column'></div>\n                            </div>\n                            <div className='is-align-items-center'>\n                                <label>4 verschiedene Kunststoffgranulate</label>\n                            </div>\n                        </div>\n                    </div>\n"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 735
+                },
+                "size": {
+                    "width": 780,
+                    "height": 615
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "                    <div className='box' id='Durchführung'>\n                        <h3 className='is-size-4 title has-text-info'>Durchführung</h3>\n\n                        <div className='box has-background-danger-light'>\n                            <span className='tag is-danger has-text-weight-bold is-medium'>Sicherheit:</span>\n\n                            <div>\n                                <label>Schutzbrille tragen!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n\n                            <div>\n                                <label>Unter dem Abzug arbeiten!</label>\n                                <label className='checkbox is-pulled-right is-vcentered'>\n                                    <input type='checkbox' />\n                                </label>\n                            </div>\n                        </div>\n\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>1. </span>\n                            Beschrifte vier Reagenzgläser mit 1 bis 4 und gib in jedes Reagenzglas 2 ml Aceton sowie drei Stückchen des entsprechenden Kunststoffgranulats.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>2. </span>\n                            Schüttle die Proben und lass die Reagenzgläser 30 Minuten stehen. Schüttle erneut und beobachte.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                        <div className='box'>\n                            <span className='has-text-weight-bold'>3. </span>\n                            Notiere deine Beobachtung in der Tabelle und vergleiche deine Ergebnisse mit den Literaturangaben.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n\n                        <div className='box has-background-info-light'>\n                            <span className='tag is-info has-text-weight-bold is-medium'>Entsorgung: </span><br/>\n                            Sammle das Aceton in dem bereitgestellten Behälter für organische Lösungsmittelabfälle im Abzug. Spüle die Reagenzgläser mit Flusswasser aus und stelle sie in den bereitgestellten Spülkorb mit der Öffnung nach oben.\n                            <label className='checkbox is-pulled-right is-vcentered'>\n                                <input type='checkbox' />\n                            </label>\n                        </div>\n                    </div>"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 2000
+                },
+                "size": {
+                    "width": 783,
+                    "height": 260
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "<div className=\"box\">\n                        <p className=\"title has-text-info is-4\">Mögliche Gefahren</p>\n\n                        <table className=\"table is-bordered\">\n                            <tbody>\n                                <tr>\n                                    <td>\n                                        <p className=\"block\">Aceton</p>\n                                        <figure style=\"width: 128px;\" className=\"is-flex is-flex-direction-row block\">\n                                            <img className=\"image is-64x64\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/entzundlich\"></img>\n                                            <img className=\"image is-64x64\" src=\"http://lamport.cs.uni-kl.de:10180/imageapi/media/reizend\"></img>\n                                        </figure>\n                                        <strong className=\"block\">Gefahr</strong>\n                                    </td>\n                                    <td>\n                                        <p className=\"block\">Gefahrenhinweise</p>\n                                        <div className=\"columns block is-multiline pb-3\">\n                                            <span className=\"column py-1 is-2\">H225</span>\n                                            <span className=\"column py-1 is-10\">Flüssigkeit und Dampf leicht entzündbar.</span>\n                                            <span className=\"column py-1 is-2\">H319</span>\n                                            <span className=\"column py-1 is-10\">Verursacht schwere Augenreizung.</span>\n                                            <span className=\"column py-1 is-2\">H336</span>\n                                            <span className=\"column py-1 is-10\">Kann Schläfrigkeit und Benommenheit verursachen.</span>\n                                            <span className=\"column py-1 is-2\">EUH066</span>\n                                            <span className=\"column py-1 is-10\">Wiederholter Kontakt kann zu spröder oder rissiger Haut führen.</span>\n                                        </div>\n                                    </td>\n                                </tr>\n                            </tbody>\n                        </table>\n\n                    </div>"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 1825
+                },
+                "size": {
+                    "width": 780,
+                    "height": 165
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "<div className='box'>\n                        <p className=\"title has-text-info is-4\">Löslichkeit verschiedener Kunststoffe</p>\n                        <table className=\"table\">\n                            <thead>\n                                <tr>\n                                    <th>In Wasser</th>\n                                    <th>In Aceton</th>\n                                    <th>In Ameisensäure</th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr>\n                                    <td>PVAL</td>\n                                    <td>PS</td>\n                                    <td>PA, PVAL</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 1360
+                },
+                "size": {
+                    "width": 780,
+                    "height": 45
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "\n<div className=\"columns\">\n<p className=\"mb-0 column is-1 title has-text-centered is-size-4\">&#8595</p>\n<p className=\"column mb-0 title has-text-centered is-size-6\">Diese Tabelle kann in 'Mein Board' kopiert werden, um die Ergebnisse während der nächsten Experimente beizubehalten.</p>\n<p className=\"mb-0 column is-1 title has-text-centered is-size-4\">\n&#8595</p>\n"
+            }
+        },
+        {
+            "componentData": {
+                "type": "htmlcomp",
+                "position": {
+                    "x": 100,
+                    "y": 1770
+                },
+                "size": {
+                    "width": 780,
+                    "height": 45
+                }
+            },
+            "innerData": {
+                "type": "htmlcomp",
+                "value": "\n<div className=\"columns\">\n<p className=\"mb-0 column is-1 title has-text-centered is-size-4\">&#8593</p>\n<p className=\"column mb-0 title has-text-centered is-size-6\">Diese Tabelle kann in 'Mein Board' kopiert werden, um die Ergebnisse während der nächsten Experimente beizubehalten.</p>\n<p className=\"mb-0 column is-1 title has-text-centered is-size-4\">\n&#8593</p>\n"
+            }
+        }
+    ],
+    "todolist": []
+}
